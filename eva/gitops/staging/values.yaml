@@ -1,0 +1,12 @@
+result:
+  image:
+    repository: codedev.jfrog.io/poc-demo-1-docker-local/result
+    tag: "pr-14-update-cats-to-lizards-43ae64f"
+vote:
+  image:
+    repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
+    tag: "pr-14-update-cats-to-lizards-43ae64f"
+worker:
+  image:
+    repository: codedev.jfrog.io/poc-demo-1-docker-local/worker
+    tag: stable
