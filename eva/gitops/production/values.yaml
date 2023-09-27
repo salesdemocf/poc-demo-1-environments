@@ -1,11 +1,11 @@
 result:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/result
-    tag: "pr-14-update-cats-to-lizards-43ae64f"
+    tag: "pr-16-update-lizards-to-mice-83b9077"
 vote:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
-    tag: "pr-15-update-fish-to-snakes-01494c2"
+    tag: "pr-16-update-lizards-to-mice-83b9077"
 worker:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/worker
