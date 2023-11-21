@@ -1,7 +1,7 @@
 result:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/result
-    tag: "pr-22-update-birds-to-dogs-b03c7fc"
+    tag: "pr-23-update-dogs-to-fish-a17448c"
 vote:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
