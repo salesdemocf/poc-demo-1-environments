@@ -5,7 +5,7 @@ result:
 vote:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
-    tag: "pr-23-update-dogs-to-fish-a17448c"
+    tag: "pr-28-update-vote-fcc6dda"
 worker:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/worker
