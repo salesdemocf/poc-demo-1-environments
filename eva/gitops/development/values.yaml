@@ -1,7 +1,7 @@
 result:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/result
-    tag: "pr-29-update-result-d36101f"
+    tag: "pr-51-result-cats-vs-rats-821da34"
 vote:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
