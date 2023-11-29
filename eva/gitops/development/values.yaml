@@ -1,11 +1,13 @@
 result:
   image:
-    repository: codedev.jfrog.io/poc-demo-1-docker-local/result
-    tag: "pr-54-result-change-rats-to-pickles-2bbdab6"
+    #repository: codedev.jfrog.io/poc-demo-1-docker-local/result
+    repository: quay.io/codefresh-contrib/result
+    tag: "broken"
 vote:
   image:
-    repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
-    tag: "pr-55-vote-pickles-to-dogs-97a7c00"
+    #repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
+    repository: quay.io/codefresh-contrib/vote
+    tag: "broken"
 worker:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/worker
