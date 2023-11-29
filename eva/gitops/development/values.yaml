@@ -2,7 +2,7 @@ result:
   image:
     #repository: codedev.jfrog.io/poc-demo-1-docker-local/result
     repository: quay.io/codefresh-contrib/result
-    tag: "borked"
+    tag: "rollback-test"
 vote:
   image:
     #repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
