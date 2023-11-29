@@ -5,7 +5,7 @@ result:
 vote:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
-    tag: "pr-47-vote-cats-vs-pickles-03882ae"
+    tag: "pr-49-vote-cats-vs-dogs-650112f"
 worker:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/worker
