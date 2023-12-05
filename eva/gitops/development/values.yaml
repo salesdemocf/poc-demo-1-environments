@@ -5,7 +5,7 @@ result:
 vote:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
-    tag: pr-58-vote-dogs-to-pickles-eee5a9c
+    tag: pr-59-random-vote-change-1-ba8008c
 worker:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/worker
