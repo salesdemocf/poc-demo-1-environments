@@ -3,8 +3,7 @@ result:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/result
 vote:
   image:
-    repository: quay.io/codefresh-contrib/vote
-    tag: broken
+    repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
 worker:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/worker
