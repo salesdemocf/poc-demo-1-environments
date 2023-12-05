@@ -5,7 +5,7 @@ result:
 vote:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
-    tag: pr-61-random-vote-change-3-93b3675
+    tag: pr-62-random-vote-change-4-7e99337
 worker:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/worker
