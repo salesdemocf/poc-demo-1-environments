@@ -1,11 +1,11 @@
 result:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/result
-    tag: "pr-29-update-result-d36101f"
+    tag: pr-54-result-change-rats-to-pickles-2bbdab6
 vote:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/vote
-    tag: "pr-50-vote-cats-vs-rats-a941e01"
+    tag: pr-59-random-vote-change-1-ba8008c
 worker:
   image:
     repository: codedev.jfrog.io/poc-demo-1-docker-local/worker
