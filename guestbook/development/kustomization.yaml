@@ -6,7 +6,24 @@ images:
   newTag: d211295c9b2b2ec31f4fd4894a6d705e65fa7584
 
 resources:
-- guestbook-ui-deployment.yaml
+- guestbook-rollout.yaml
+- guestbook-ui-preview-svc.yaml
 - guestbook-ui-svc.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
+
+openapi:
+  path: https://raw.githubusercontent.com/argoproj/argo-schema-generator/main/schema/argo_all_k8s_kustomize_schema.json
+
+patches:
+- patch: |-
+    apiVersion: argoproj.io/v1alpha1
+    kind: Rollout
+    metadata:
+      name: guestbook
+    spec:
+      template:
+        spec:
+          containers:
+          - name: ks-guestbook
+            image: salesdemocf/guestbook:d211295c9b2b2ec31f4fd4894a6d705e65fa7584
