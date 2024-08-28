@@ -12,9 +12,6 @@ spec:
     blueGreen:
       activeService: guestbook-ui-svc
       autoPromotionEnabled: true
-      prePromotionAnalysis:
-        templates:
-          - templateName: curl-vote
       previewService: guestbook-preview-svc
   template:
     spec:

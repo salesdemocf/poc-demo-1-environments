@@ -20,10 +20,10 @@ patches:
     apiVersion: argoproj.io/v1alpha1
     kind: Rollout
     metadata:
-      name: guestbook
+      name: guestbook-ui
     spec:
       template:
         spec:
           containers:
-          - name: ks-guestbook
+          - name: guestbook
             image: salesdemocf/guestbook:d211295c9b2b2ec31f4fd4894a6d705e65fa7584
