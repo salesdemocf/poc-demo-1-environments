@@ -18,5 +18,5 @@ patches:
       template:
         spec:
           containers:
-          - name: guestbook
+          - name: guestbook-ui
             image: salesdemocf/guestbook:502a9e6558ce96dd88ae796ecd99cf0ac53d6cd1
