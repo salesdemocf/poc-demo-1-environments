@@ -1,10 +1,5 @@
 namePrefix: kustomize-
 
-images:
-- name: ks-guestbook-demo
-  newName: salesdemocf/guestbook
-  newTag: d211295c9b2b2ec31f4fd4894a6d705e65fa7584
-
 resources:
 - guestbook-rollout.yaml
 - guestbook-ui-preview-svc.yaml
@@ -24,6 +19,8 @@ patches:
     spec:
       template:
         spec:
-          containers:
-          - name: guestbook
-            image: salesdemocf/guestbook:d211295c9b2b2ec31f4fd4894a6d705e65fa7584
+          template:
+            spec:
+              containers:
+              - name: guestbook
+                image: salesdemocf/guestbook:502a9e6558ce96dd88ae796ecd99cf0ac53d6cd1
