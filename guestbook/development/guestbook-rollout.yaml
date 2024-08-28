@@ -14,19 +14,12 @@ spec:
       autoPromotionEnabled: true
       previewService: guestbook-preview-svc
   template:
+    metadata:
+      labels:
+        app: guestbook-ui
     spec:
-      replicas: 1
-      revisionHistoryLimit: 3
-      selector:
-        matchLabels:
-          app: guestbook-ui
-      template:
-        metadata:
-          labels:
-            app: guestbook-ui
-        spec:
-          containers:
-          - image: ks-guestbook-demo
-            name: guestbook-ui
-            ports:
-            - containerPort: 80
+      containers:
+      - image: ks-guestbook-demo
+        name: guestbook-ui
+        ports:
+        - containerPort: 80

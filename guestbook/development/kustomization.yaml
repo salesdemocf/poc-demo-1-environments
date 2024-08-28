@@ -17,8 +17,6 @@ patches:
     spec:
       template:
         spec:
-          template:
-            spec:
-              containers:
-              - name: guestbook
-                image: salesdemocf/guestbook:502a9e6558ce96dd88ae796ecd99cf0ac53d6cd1
+          containers:
+          - name: guestbook
+            image: salesdemocf/guestbook:502a9e6558ce96dd88ae796ecd99cf0ac53d6cd1
