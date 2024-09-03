@@ -3,7 +3,7 @@ namePrefix: kustomize-
 images:
 - name: ks-guestbook-demo
   newName: salesdemocf/guestbook
-  newTag: d211295c9b2b2ec31f4fd4894a6d705e65fa7584
+  newTag: 3cae63cb0739638ee5e6c7a6b2a85e024455b2ec
 
 resources:
 - guestbook-ui-deployment.yaml
